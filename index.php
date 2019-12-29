@@ -8,16 +8,19 @@
 
 <?php
 
-$mysqli = new mysqli("localhost", "user", "password", "database");
-if ($mysqli->connect_errno) {
-    echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-}
-echo $mysqli->host_info . "\n";
 
-$mysqli = new mysqli("127.0.0.1", "user", "password", "database", 3306);
+$host = "localhost";
+$username = "root";
+$user_pass = "root";
+$database_in_use = "test";
+
+$mysql = new mysqli($host, $username, $user_pass, $database_in_use);
+
+
 if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
+
 
 echo $mysqli->host_info . "\n";
 
