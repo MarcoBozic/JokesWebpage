@@ -2,6 +2,9 @@
 
 include "db_connect.php";
 
+$keywordfromform = $_GET["keyword"];
+echo $keywordfromform;
+
 // Search the database for the word chicken
 echo "<h2>Show all jokes with the word chicken</h2>";
 
