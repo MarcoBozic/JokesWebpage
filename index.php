@@ -8,15 +8,17 @@
 
 <?php
 
-
+// four variables used to connect the database
 $host = "localhost";
 $username = "root";
 $user_pass = "root";
 $database_in_use = "test";
 
+// creates a database connection instance
 $mysql = new mysqli($host, $username, $user_pass, $database_in_use);
 
 
+//if there are any values in the table, display them one at a time
 if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
