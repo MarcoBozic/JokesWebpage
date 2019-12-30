@@ -1,5 +1,7 @@
 <?php
 
+include "db_connect.php";
+
 // Search the database for the word chicken
 echo "<h2>Show all jokes with the word chicken</h2>";
 
