@@ -10,7 +10,7 @@
 
 include "db_connect.php";
 
-include "search_all_jokes.php";
+//include "search_all_jokes.php";
 
 ?>
 
@@ -26,7 +26,7 @@ include "search_all_jokes.php";
 
 
 
-include "search_keyword.php";
+//include "search_keyword.php";
 
 
 $mysqli->close();
