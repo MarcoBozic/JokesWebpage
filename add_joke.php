@@ -6,6 +6,8 @@ $new_joke_question = $_GET["newjoke"];
 $new_joke_answer = $_GET["newanswer"];
 //echo $keywordfromform;
 
+$new_joke_question = addslashes($new_joke_question);
+$new_joke_answer = addslashes($new_joke_answer);
 
 // Search the database for the word the user requested
 echo "<h2>Trying to add a new joke: $new_joke_question and $new_joke_answer</h2>";
