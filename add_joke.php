@@ -16,3 +16,5 @@ $result = $mysqli->query($sql);
 include "search_all_jokes.php";
 
 ?>
+
+<a href="index.php">Return to main page</a>
