@@ -22,6 +22,43 @@ include "db_connect.php";
 </form>
 
 
+
+<form class="form-horizontal" action = "search_keyword.php">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Search for a Joke</legend>
+
+<!-- Search input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="keyword">Search Input</label>
+  <div class="col-md-5">
+    <input id="keyword" name="keyword" type="search" placeholder="e.g. chicken" class="form-control input-md" required="">
+    <p class="help-block">Enter a word to search for in the joke database</p>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-4">
+    <button id="submit" name="submit" class="btn btn-primary">Search</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+
+
+
+
+
+
+
+
+
+<hr>
 <form action="/add_joke.php">
   Please enter a new joke here:<br>
   <input type="text" name="newjoke"><br>
