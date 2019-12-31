@@ -1,0 +1,13 @@
+<?php
+
+include "db_connect.php";
+
+$new_joke_question = $_GET["newjoke"];
+$new_joke_answer = $_GET["newanswer"];
+//echo $keywordfromform;
+
+
+// Search the database for the word the user requested
+echo "<h2>Trying to add a new joke: $new_joke_question and $new_joke_answer</h2>";
+
+?>
