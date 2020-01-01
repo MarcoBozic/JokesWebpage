@@ -53,27 +53,6 @@ include "db_connect.php";
 
 
 
-
-
-
-
-
-<hr>
-<form action="/add_joke.php">
-  Please enter a new joke here:<br>
-  <input type="text" name="newjoke"><br>
-
-  Please enter the answer to your joke here:<br>
-  <input type="text" name="newanswer"><br>	
-
- 
-  <input type="submit" value="Submit">
-</form>
-
-
-
-
-
 <form class="form-horizontal" action = "add_joke.php">
 <fieldset>
 
