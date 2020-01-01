@@ -12,9 +12,6 @@
 </head>
 
 
-
-
-
 <?php
 
 include "db_connect.php";
@@ -22,12 +19,13 @@ include "db_connect.php";
 $keywordfromform = $_GET["keyword"];
 //echo $keywordfromform;
 
-// Search the database for the word cthe user requested
-echo "<h2>Show all jokes with the word $keywordfromform</h2>";
+echo "<h1>Looking for jokes that only have the word <em>$keywordfromform</em> in the question<br></h1>";
 
+// Search the database for the word cthe user requested
 $sql = "SELECT JokeID, Joke_question, Joke_answer, FROM Jokes_table WHERE Joke_question LIKE '% . $keywordfromform . %'";
 $result = $mysqli->query($sql);
 
+echo "Select returned $result->num_rows rows of data<br>";
 
 ?>
 
