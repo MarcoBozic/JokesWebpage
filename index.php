@@ -70,6 +70,50 @@ include "db_connect.php";
   <input type="submit" value="Submit">
 </form>
 
+
+
+
+
+<form class="form-horizontal" action = "add_joke.php">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Form Name</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="newjoke">Your joke question</label>  
+  <div class="col-md-6">
+  <input id="newjoke" name="newjoke" type="text" placeholder="e.g. Why did the chicken cross the road?" class="form-control input-md" required="">
+  <span class="help-block">Enter your joke question here</span>  
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="newanswer">The answer to your joke</label>  
+  <div class="col-md-6">
+  <input id="newanswer" name="newanswer" type="text" placeholder="e.g To get to the other side." class="form-control input-md" required="">
+  <span class="help-block">Enter the answer, or the punchline, to your joke here</span>  
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-4">
+    <button id="submit" name="submit" class="btn btn-primary">Add a new joke</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+
+
+
+
+
 <?php
 
 
