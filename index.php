@@ -78,7 +78,7 @@ include "db_connect.php";
 <fieldset>
 
 <!-- Form Name -->
-<legend>Form Name</legend>
+<legend>Add your own joke</legend>
 
 <!-- Text input-->
 <div class="form-group">
