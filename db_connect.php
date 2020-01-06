@@ -1,5 +1,11 @@
 <?php
 
+
+/* the purpose of db_connect.php is to establish a connection
+to the jokes database 
+*/
+
+
 // four variables used to connect the database
 $host = "localhost";
 $username = "root";
