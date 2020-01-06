@@ -16,7 +16,7 @@
 
 <?php
 
-/* the purpose of this file is to display the main interface 
+/* the purpose of index.php is to display the main interface 
 that the user will see and to make use of other functions
 from other files that help display the intended data
 */
