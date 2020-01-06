@@ -1,3 +1,4 @@
+
 <html>
 <head>
 <!-- Latest compiled and minified CSS -->
@@ -15,9 +16,16 @@
 
 <?php
 
+/* the purpose of this file is to display the main interface 
+that the user will see and to make use of other functions
+from other files that help display the intended data
+*/
+
+
+
+//includes functions from db_connect.php
 include "db_connect.php";
 
-//include "search_all_jokes.php";
 
 ?>
 
@@ -96,10 +104,7 @@ include "db_connect.php";
 <?php
 
 
-
-//include "search_keyword.php";
-
-
+//close connection to database
 $mysqli->close();
 
 ?>
