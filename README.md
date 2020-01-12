@@ -20,7 +20,7 @@ Future Plans:
 
 Although I am really pround with the outcome of this project, there are
 always improvements that can be made! One of the reasons for not hosting
-the webpage for the public is that there were very litlle security measures that were implemented. Since I am still not an expert on web 
+the webpage for the public is that there were very little security measures that were implemented. Since I am still not an expert on web 
 development, I am not sure how to fully protect all the data contained
 in the database and I do not know how to protect my webpage from nefarious attacks if it were to go public. In the end, my future goals
 are to learn more about security and build upon the many foundations 
